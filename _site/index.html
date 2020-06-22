@@ -8,10 +8,13 @@
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>소스 메이트</title>
-<link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
+<link href="googlefont.css" rel="stylesheet" type="text/css" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-<script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+<script type="text/javascript" src="script/jquery-3.2.1.min.js"></script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> -->
+<script type="text/javascript" src="script/moment.min.js"></script>
+
 
 <style>
 .myButton {
@@ -52,28 +55,34 @@
 			<ul>
 				<li class="current_page_item"><a href="index.html">홈페이지</a></li>
 				<li><a href="termofuse.html">이용약관</a></li>
-<!-- 				<li><a href="#">개인정보처리방침</a></li> -->
-<!-- 				<li><a href="#">Blog</a></li> -->
-<!-- 				<li><a href="#">Photos</a></li> -->
-<!-- 				<li><a href="#">About Us</a></li> -->
-<!-- 				<li><a href="#">Links</a></li> -->
-<!-- 				<li><a href="#">Contact Us</a></li> -->
+
 			</ul>
 		</div>
 	</div>
+	<div>
 	
+<div id="kakaoad" style="width:5%;margin-left:6%;float:left">
+
+	<ins class="kakao_ad_area" style="display:none;" 
+ data-ad-unit    = "DAN-1hv2qu7q1gu2c" 
+ data-ad-width   = "160" 
+ data-ad-height  = "600"></ins> 
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+</div>
+<div style="width:78%;float:left">
 	<div style="text-align:center" class="container" >
-	
 		<textarea id="textarea1" style="width:80%; left:10%; display:inline-block;" rows="15" cols="30" name="contents" placeholder="소스를 적어주세요"></textarea>
 	</div>
 	<div id="buttonarea"  style="text-align:center" class="container">
 		<font style="font-size:12pt;color:black;margin:0 13px 0 13px">우리의 서비스를 이용하는것은 사용자가 <a href="termofuse.html">이용약관</a>을 동의하는것으로 간주합니다</font>
 		<br>
-<!-- 		<input type="button" onclick="godown()" value="다운로드 테스트"/> -->
-<!-- 		<input type="button" onclick="gotextdown()" value="소스 변환하기"/> -->
 		
 		<a href="javascript:gotextdown()" class="myButton">소스 변환하기</a>
-<!-- 		<input type="button" onclick="goread()" value="데이터 읽기 테스트"/> -->
+
+	</div>
+	<div style="text-align:center;" class="container">
+	<iframe id="clickmonads" width="728" height="90" allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1074438%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameborder="0" scrolling="no"></iframe>
+
 	</div>
 	<div id="howtouse" class="container" style="font-size:15px;color:black;width:51%;">
 	<div style="font-weight:bold;">이용 방법<br><br></div>
@@ -94,84 +103,41 @@
 	<li>사용하기전에 이용약관을 확인해주세요<br></li>
 	<li>인터넷소스는 한줄 내림으로 구분이 되어있어야 변환이 가능합니다.<br></li>
 	<li>현재 변환 지원되는 소스들은 한정되어있습니다.<br></li>
-	<li>chrome브라우저에서 이용해주세요.</li>
+	<li>chrome OR firefox 브라우저에서 이용해주세요.</li>
 	</ul>
 	
 	</div>
 	
-<!-- 	<div id="page" class="container"> -->
-<!-- 		<div id="content"> -->
-<!-- 			<div class="post"> -->
-<!-- 				<h2 class="title"><a href="#">Fusce ultrices fringilla metus</a></h2> -->
-<!-- 				<div class="entry"> -->
-<!-- 					<p>This is <strong>Glissade </strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.     The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p> -->
-<!-- 					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum. Proin imperdiet est. Phasellus <a href="#">dapibus semper urna</a>. Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer nisl felis ac diam. Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis,  egestas at sem.  Mauris quam enim,  in, rhoncus ut, lobortis a, est. Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus.</p> -->
-<!-- 				</div> -->
-<!-- 			</div> -->
-<!-- 			<div style="clear: both;">&nbsp;</div> -->
-<!-- 		</div> -->
-<!-- 		<!-- end #content -->
-<!-- 		<div id="sidebar"> -->
-<!-- 			<div> -->
-<!-- 				<h2>Nulla luctus eleifend</h2> -->
-<!-- 				<ul class="list-style2"> -->
-<!-- 					<li class="first"><a href="#">Pellentesque quis elit non lectus gravida blandit.</a></li> -->
-<!-- 					<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li> -->
-<!-- 					<li><a href="#">Phasellus nec erat sit amet nibh pellentesque congue.</a></li> -->
-<!-- 					<li><a href="#">Cras vitae metus aliquam risus pellentesque pharetra.</a></li> -->
-<!-- 					<li><a href="#">Phasellus nec erat sit amet nibh pellentesque congue.</a></li> -->
-<!-- 					<li><a href="#">Maecenas vitae orci vitae tellus feugiat eleifend.</a></li> -->
-<!-- 				</ul> -->
-<!-- 			</div> -->
-<!-- 		</div> -->
-<!-- 		<!-- end #sidebar --> 
-<!-- 		<div style="clear: both;">&nbsp;</div> -->
-<!-- 	</div> -->
-	
-	<!-- end #page --> 
-	
 </div>
-<!-- <div id="footer-bg"> -->
-<!-- 	<div id="footer-content" class="container"> -->
-<!-- 		<div id="column1"> -->
-<!-- 			<h2>Tellus feugiat eleifend</h2> -->
-<!-- 			<ul class="list-style2"> -->
-<!-- 				<li class="first"><a href="#">Pellentesque quis elit non lectus gravida blandit.</a></li> -->
-<!-- 				<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li> -->
-<!-- 				<li><a href="#">Phasellus nec erat sit amet nibh pellentesque congue.</a></li> -->
-<!-- 				<li><a href="#">Cras vitae metus aliquam risus pellentesque pharetra.</a></li> -->
-<!-- 				<li><a href="#">Maecenas vitae orci vitae tellus feugiat eleifend.</a></li> -->
-<!-- 			</ul> -->
-<!-- 		</div> -->
-<!-- 		<div id="column2"> -->
-<!-- 			<h2>Etiam rhoncus volutpat</h2> -->
-<!-- 			<ul class="list-style2"> -->
-<!-- 				<li class="first"><a href="#">Pellentesque quis elit non lectus gravida blandit.</a></li> -->
-<!-- 				<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li> -->
-<!-- 				<li><a href="#">Phasellus nec erat sit amet nibh pellentesque congue.</a></li> -->
-<!-- 				<li><a href="#">Cras vitae metus aliquam risus pellentesque pharetra.</a></li> -->
-<!-- 				<li><a href="#">Maecenas vitae orci vitae tellus feugiat eleifend.</a></li> -->
-<!-- 			</ul> -->
-<!-- 		</div> -->
-<!-- 		<div id="column3"> -->
-<!-- 			<h2>Recommended Links</h2> -->
-<!-- 			<ul class="list-style2"> -->
-<!-- 				<li class="first"><a href="#">Pellentesque quis elit non lectus gravida blandit.</a></li> -->
-<!-- 				<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li> -->
-<!-- 				<li><a href="#">Phasellus nec erat sit amet nibh pellentesque congue.</a></li> -->
-<!-- 				<li><a href="#">Cras vitae metus aliquam risus pellentesque pharetra.</a></li> -->
-<!-- 				<li><a href="#">Maecenas vitae orci vitae tellus feugiat eleifend.</a></li> -->
-<!-- 			</ul> -->
-<!-- 		</div> -->
-<!-- 	</div> -->
-<!-- </div> -->
+
+</div>
+</div>
 <div id="footer">
 	<p>Â© 2020 sourcemate . All rights reserved. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.  Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
 </div>
 <!-- end #footer -->
+
+
+
+
+
 </body>
 </html>
 <script>
+
+function checkbrowser(){
+	var agent = navigator.userAgent.toLowerCase();
+
+	if ((agent.indexOf("chrome") != -1) && (agent.indexOf("firefox") != -1)){
+// 	if (agent.indexOf("chrome") != -1){
+		alert("크롬 브라우저나 파이어폭스 브라우저가 아닐 경우 사이트 이용이 안될수도 있습니다.");
+	}
+// 	출처: https://ooz.co.kr/67 [이러쿵저러쿵]
+}
+
+function callfunction(trig){
+	$("#"+trig).trigger("click");
+}
 
 function goread(){ //텍스트에리어안의 데이터읽기테스트
 	var txt = document.getElementById("textarea1").value;
@@ -184,13 +150,27 @@ function godown(){//다운로드 테스트
 }
 
 function gotextdown(){
+	checkbrowser();
+	
+	if(!txtemptychk()){
+		return;
+	}
+// 	callfunction("clickmonads");
 	var msg = "";
 	var date = new Date();
 	var title=moment(date).format('YY년MM월DD일 HH:mm:ss:');
 	msg = contentmaking(title);
-	
+		
 	download(title+".html", msg);
 	//download("test.html", document.getElementById("textarea1").value);
+}
+function txtemptychk(){
+	var body = document.getElementById("textarea1").value;
+	if(body.trim() ==""){
+		alert("입력된 내용이 없습니다");
+		return false;
+	}
+	return true;
 }
 
 function contentmaking(title){
